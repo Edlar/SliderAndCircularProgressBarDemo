@@ -1,6 +1,6 @@
 //
 //  CircleProgress.swift
-//  SliderAndCircularProgressBarDemo
+//  SliderAndCircularProgressBarSwiftUIDemo
 //
 //  Created by Eduard Laryushkin on 28.11.2020.
 //

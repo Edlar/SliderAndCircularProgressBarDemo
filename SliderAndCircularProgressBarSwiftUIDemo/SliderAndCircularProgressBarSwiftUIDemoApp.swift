@@ -1,6 +1,6 @@
 //
-//  SliderAndCircularProgressBarDemoApp.swift
-//  SliderAndCircularProgressBarDemo
+//  SliderAndCircularProgressBarSwiftUIDemoApp.swift
+//  SliderAndCircularProgressBarSwiftUIDemo
 //
 //  Created by Eduard Laryushkin on 28.11.2020.
 //

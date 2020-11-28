@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		83A513BF2572924F005DFEB5 /* SliderAndCircularProgressBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A513BE2572924F005DFEB5 /* SliderAndCircularProgressBarApp.swift */; };
+		83A513BF2572924F005DFEB5 /* SliderAndCircularProgressBarSwiftUIDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A513BE2572924F005DFEB5 /* SliderAndCircularProgressBarSwiftUIDemoApp.swift */; };
 		83A513C12572924F005DFEB5 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A513C02572924F005DFEB5 /* MainView.swift */; };
 		83A513C325729251005DFEB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83A513C225729251005DFEB5 /* Assets.xcassets */; };
 		83A513D425729B5F005DFEB5 /* SliderProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A513D325729B5F005DFEB5 /* SliderProgressBar.swift */; };
@@ -15,13 +15,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		83A513BB2572924F005DFEB5 /* SliderAndCircularProgressBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = SliderAndCircularProgressBar.app; path = "/Users/edlar.ru/Projects/Swift/Demos/SliderAndCircularProgressBarDemo/build/Debug-iphoneos/SliderAndCircularProgressBar.app"; sourceTree = "<absolute>"; };
-		83A513BE2572924F005DFEB5 /* SliderAndCircularProgressBarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderAndCircularProgressBarApp.swift; sourceTree = "<group>"; };
+		83A513BE2572924F005DFEB5 /* SliderAndCircularProgressBarSwiftUIDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderAndCircularProgressBarSwiftUIDemoApp.swift; sourceTree = "<group>"; };
 		83A513C02572924F005DFEB5 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		83A513C225729251005DFEB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83A513C725729251005DFEB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83A513D325729B5F005DFEB5 /* SliderProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderProgressBar.swift; sourceTree = "<group>"; };
 		83A513D725729E64005DFEB5 /* CircularProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressBar.swift; sourceTree = "<group>"; };
+		83B523B92572F38C00AF3C1E /* SliderAndCircularProgressBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = SliderAndCircularProgressBar.app; path = "/Users/edlar.ru/Projects/Swift/Demos/SliderAndCircularProgressBarDemo/build/Debug-iphoneos/SliderAndCircularProgressBar.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,21 +38,21 @@
 		83A513B22572924F005DFEB5 = {
 			isa = PBXGroup;
 			children = (
-				83A513BD2572924F005DFEB5 /* SliderAndCircularProgressBarDemo */,
+				83A513BD2572924F005DFEB5 /* SliderAndCircularProgressBarSwiftUIDemo */,
 			);
 			sourceTree = "<group>";
 		};
-		83A513BD2572924F005DFEB5 /* SliderAndCircularProgressBarDemo */ = {
+		83A513BD2572924F005DFEB5 /* SliderAndCircularProgressBarSwiftUIDemo */ = {
 			isa = PBXGroup;
 			children = (
-				83A513BE2572924F005DFEB5 /* SliderAndCircularProgressBarApp.swift */,
+				83A513BE2572924F005DFEB5 /* SliderAndCircularProgressBarSwiftUIDemoApp.swift */,
 				83A513C02572924F005DFEB5 /* MainView.swift */,
 				83A513D325729B5F005DFEB5 /* SliderProgressBar.swift */,
 				83A513D725729E64005DFEB5 /* CircularProgressBar.swift */,
 				83A513C225729251005DFEB5 /* Assets.xcassets */,
 				83A513C725729251005DFEB5 /* Info.plist */,
 			);
-			path = SliderAndCircularProgressBarDemo;
+			path = SliderAndCircularProgressBarSwiftUIDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,7 +72,7 @@
 			);
 			name = SliderAndCircularProgressBar;
 			productName = SliderAndCircularProgressBar;
-			productReference = 83A513BB2572924F005DFEB5 /* SliderAndCircularProgressBar.app */;
+			productReference = 83B523B92572F38C00AF3C1E /* SliderAndCircularProgressBar.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -89,7 +89,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83A513B62572924F005DFEB5 /* Build configuration list for PBXProject "SliderAndCircularProgressBarDemo" */;
+			buildConfigurationList = 83A513B62572924F005DFEB5 /* Build configuration list for PBXProject "SliderAndCircularProgressBarSwiftUIDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -124,7 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83A513C12572924F005DFEB5 /* MainView.swift in Sources */,
-				83A513BF2572924F005DFEB5 /* SliderAndCircularProgressBarApp.swift in Sources */,
+				83A513BF2572924F005DFEB5 /* SliderAndCircularProgressBarSwiftUIDemoApp.swift in Sources */,
 				83A513D425729B5F005DFEB5 /* SliderProgressBar.swift in Sources */,
 				83A513D825729E64005DFEB5 /* CircularProgressBar.swift in Sources */,
 			);
@@ -255,16 +255,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SliderAndCircularProgressBarDemo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SliderAndCircularProgressBarSwiftUIDemo/Preview Content\"";
 				DEVELOPMENT_TEAM = NQ25V2WSYR;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/SliderAndCircularProgressBarDemo/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/SliderAndCircularProgressBarSwiftUIDemo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ru.edlar.SliderAndCircularProgressBarDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.edlar.SliderAndCircularProgressBarSwiftUIDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -277,16 +277,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SliderAndCircularProgressBarDemo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SliderAndCircularProgressBarSwiftUIDemo/Preview Content\"";
 				DEVELOPMENT_TEAM = NQ25V2WSYR;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/SliderAndCircularProgressBarDemo/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/SliderAndCircularProgressBarSwiftUIDemo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ru.edlar.SliderAndCircularProgressBarDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.edlar.SliderAndCircularProgressBarSwiftUIDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -296,7 +296,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		83A513B62572924F005DFEB5 /* Build configuration list for PBXProject "SliderAndCircularProgressBarDemo" */ = {
+		83A513B62572924F005DFEB5 /* Build configuration list for PBXProject "SliderAndCircularProgressBarSwiftUIDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83A513C825729251005DFEB5 /* Debug */,
